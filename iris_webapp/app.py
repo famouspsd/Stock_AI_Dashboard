@@ -3,7 +3,7 @@ from flask_cors import CORS
 import joblib
 import pandas as pd
 
-app = Flask(name)
+app = Flask(__name__, template_folder='templates')
 CORS(app)
 
 model = joblib.load("iris_model.pkl")
@@ -32,5 +32,5 @@ def predict():
         "confidence": str(round(max(proba)*100, 1)) + "%"
     })
 
-if name == "main":
+if __name__ == "__main__":
     app.run(debug=True, port=5000)
