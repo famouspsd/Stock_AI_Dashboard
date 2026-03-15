@@ -3,7 +3,7 @@
 A real-time stock analysis and prediction tool built with Python and Machine Learning. This application uses historical data to forecast price movements and provide technical buy/sell signals.
 
 ## 🚀 Live Demo
-[INSERT YOUR STREAMLIT LINK HERE]
+https://stock-ai-dashboard.onrender.com
 
 ## ✨ Key Features
 - AI-Powered Predictions: Uses a Random Forest Regressor to forecast the next day's closing price.
