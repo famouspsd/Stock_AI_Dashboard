@@ -1,7 +1,8 @@
-flask
-flask-cors
-scikit-learn
+
+streamlit
+yfinance
 pandas
-numpy
-joblib
-gunicorn
+ta
+scikit-learn
+plotly
+    
