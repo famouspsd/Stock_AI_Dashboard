@@ -1,8 +1,8 @@
-
+numpy
 streamlit
 yfinance
 pandas
 ta
 scikit-learn
 plotly
-    
+nltk  
